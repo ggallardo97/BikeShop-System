@@ -1,0 +1,150 @@
+.form-control-user2 {
+    font-size: 0.8rem;
+    border-radius: 10rem;
+}
+ .ui-menu .ui-menu-item{
+    border-radius: 10rem;
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    height:20px;
+    font-size:15px;
+}
+.error{
+  color:red;
+  line-height: 1;
+  width: 100%;
+  font-size: 14px;
+}
+
+.modal-dialog{
+  max-width: 650px !important;
+}
+
+.mini{
+  max-width: 350px !important;
+}
+
+.max{
+  max-width: 800px !important;
+}
+
+#mini-modal{
+  max-width: 400px !important;
+}
+
+#sinStock{
+  border-radius: 15px !important;
+}
+
+#botonState{
+  border-radius: 15px !important;
+  margin-top: 19px !important;
+  height:30px !important;
+}
+
+.img-producto{
+  height: 40px;
+  width: 40px;
+}
+
+.bg-gradient-primary {
+  background-color: #F08EFC;
+  background-image: linear-gradient(180deg, #F08EFC 10%, #EE5166 100%) !important;
+  background-size: cover;
+}
+
+.sidebar-dark .nav-item .nav-link {
+  color: #ffffff !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #F08EFC;
+  border-color: #F08EFC;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #ed65ff;
+  border-color: #ed65ff;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: #ed65ff;
+  background-color: #ed65ff;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  color: #fff;
+  background-color: rgb(156, 18, 156);
+  border-color: rgb(156, 18, 156);
+  box-shadow: 0 0 0 0.2rem rgba(105, 136, 228, 0.5);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
+  background-color: #f194fd;
+  border-color: #f9cfff;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: rgb(156, 18, 156);
+  border-color: rgb(156, 18, 156);
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #F08EFC;
+}
+
+.lds-facebook {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-left: 250px;
+    margin-top: -20px;
+  }
+  .lds-facebook div {
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    width: 16px;
+    background: rgb(51, 51, 51);
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  }
+  .lds-facebook div:nth-child(1) {
+    left: 8px;
+    animation-delay: -0.24s;
+  }
+  .lds-facebook div:nth-child(2) {
+    left: 32px;
+    animation-delay: -0.12s;
+  }
+  .lds-facebook div:nth-child(3) {
+    left: 56px;
+    animation-delay: 0;
+  }
+  @keyframes lds-facebook {
+    0% {
+      top: 8px;
+      height: 64px;
+    }
+    50%, 100% {
+      top: 24px;
+      height: 32px;
+    }
+  }
+  ul.ui-autocomplete {
+    z-index: 1100;
+  }
+
+  @media (max-width: 576px){
+
+    #mainTitle{
+
+      display: flex !important;
+    }
+  }
