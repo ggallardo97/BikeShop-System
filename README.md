@@ -35,12 +35,14 @@ Finalmente, crear la base de datos y ejecutar el seeder que contiene una cuenta 
 
 ## Uso
 
-With the teacher account you can:
-- create, read, edit and delete multiple choices tests
-- create, read, edit and delete choices for the tests
-- get information of your students' scores and some addtional data
+Para cada sección del sistema, se permiten operaciones para crear, leer, editar y eliminar(bajas lógicas) la información de los registros, según corresponda. La navegación del sistema ofrece:
+- Productos
+- Categorías
+- Historial de ventas
+- Clientes
+- Cierres
+- Estadísticas
 
-With the student account (you can create one through the register page) you can:
-- get all available test
-- take tests and get your scores (you have only one try)
+Para registrar las ventas del día, es necesario "iniciar la jornada" con el botón de encendido (ubicado en la parte superior derecha de la página), y luego, al finalizarla, se debe cerrar dicha jornada con el mismo botón. De esta forma se guardará la información asociada a las ventas durante el periodo que dure la jornada (al usar cookies, tiene una duración máxima de 3 días, pero lo ideal es hacerlo cada día).
+Al registrar una venta, puede elegir guardar los datos del cliente o no, como así también registrar el tipo de pago efectuado. 
 
