@@ -8,6 +8,7 @@ Una aplicación web para la gestión del stock de productos asociados al negocio
 - HTML
 - CSS / Bootstrap
 - JavaScript / JQuery
+- Ajax
 - WAPP
 
 ## Instalación
