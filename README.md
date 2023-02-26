@@ -32,6 +32,7 @@ Finalmente, crear la base de datos y ejecutar el seeder que contiene una cuenta 
   php spark db:create yourdbname
   php spark migrate
   php spark db:seed UserSeeder
+  php spark db:seed ClienteSeeder
 ```
 
 ## Uso
