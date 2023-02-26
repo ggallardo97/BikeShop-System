@@ -11,6 +11,7 @@ class ClienteSeeder extends Seeder{
         $anonimo = [
             'nombre'       => 'Anonimo',
             'apellido'     => 'Anonimo',
+            'dni'          => '00000000',
             'cuil'         => '00000000000',
             'telefono'     => '',
             'emailcliente' => '',
