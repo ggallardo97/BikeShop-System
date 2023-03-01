@@ -21,9 +21,9 @@ Es necesario tener instalado previamente PHP y un servidor Apache (o una pila co
 
 En segundo lugar, modificar el archivo .env con la información para la conección a la base de datos:
 - database.default.hostname = localhost
-- database.default.database = bikeshopdb
+- database.default.database = nombredelabasededatos
 - database.default.username = postgres
-- database.default.password = tucontraseñaaqui
+- database.default.password = contraseñadelusuario
 - database.default.DBDriver = postgre
 - database.default.port     = 5432
 
