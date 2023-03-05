@@ -15,7 +15,7 @@ Una aplicación web para la gestión del stock de productos asociados al negocio
 
 Es necesario tener instalado previamente PHP y un servidor Apache (o una pila como WAPP o XAMPP). Algunos comandos útiles:
 ```bash
-  git clone Quizzer-System
+  git clone https://github.com/ggallardo97/BikeShop-System
   cd Quizzer-System
 ```
 
